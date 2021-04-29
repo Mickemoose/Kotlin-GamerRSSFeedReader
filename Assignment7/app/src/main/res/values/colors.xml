@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303030</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#AB000E</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#3F3F3F</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorPrimaryNintendo">#AB000E</color>
+    <color name="colorPrimaryDarkNintendo">#4f0026</color>
+
+    <color name="colorPlaystation">#002696</color>
+    <color name="colorXbox">#006602</color>
+    <color name="colorOrange">#db4900</color>
+    <color name="colorPurple">#7b62a3</color>
+    <color name="colorYellow">#cf9700</color>
+
+</resources>

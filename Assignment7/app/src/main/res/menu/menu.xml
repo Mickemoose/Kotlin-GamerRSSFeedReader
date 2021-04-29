@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/refresh"
+        app:showAsAction="ifRoom">
+    </item>
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/pcgamer"
+            android:checkable="false"
+            android:enabled="true"
+            android:title="@string/pcgamer" />
+        <item
+            android:id="@+id/rockpapershotgun"
+            android:checkable="false"
+            android:enabled="true"
+            android:title="@string/rockpapershotgun" />
+        <item
+            android:id="@+id/gamespot"
+            android:checkable="false"
+            android:enabled="true"
+            android:title="@string/gamespot" />
+        <item
+            android:id="@+id/more"
+            android:checkable="false"
+            android:enabled="true"
+            android:title="@string/more" />
+    </group>
+</menu>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Gamer RSS</string>
+    <string name="test">Test!</string>
+    <string name="refresh" />
+    <string name="pcgamer">PC Gamer</string>
+    <string name="xbox">Xbox Wire</string>
+    <string name="nintendo">Nintendo Life</string>
+    <string name="rockpapershotgun">Rock Paper Shotgun</string>
+    <string name="articleimage">articleimage</string>
+    <string name="settings">settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Default Behavior</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default RSS Feed</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Use Browser</string>
+    <string name="attachment_summary_on">Open articles in Browser
+    </string>
+    <string name="attachment_summary_off">Open articles in WebView</string>
+    <string name="openbrowser">openBrowser</string>
+    <string name="playstation">Playstation Blog</string>
+    <string name="artimage">artimage</string>
+    <string name="dark_title">Dark Mode</string>
+    <string name="gamespot">GameSpot</string>
+    <string name="theme_header">Theme Settings</string>
+    <string name="darkmode_title">Dark Mode</string>
+    <string name="clock_title">24 Hour Clock</string>
+    <string name="clock_summary_on">Publication Dates will be in 24 Hour format (18:00)</string>
+    <string name="clock_summary_off">Publication Dates will be in 12 Hour format (6:00 AM/PM)</string>
+    <string name="pcgamerimage">pcgamerimage</string>
+    <string name="xboximage">xboximage</string>
+    <string name="more">More...</string>
+</resources>

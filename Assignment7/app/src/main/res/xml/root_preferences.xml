@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <ListPreference
+            app:defaultValue="pcgFeed"
+            app:entries="@array/feed_entries"
+            app:entryValues="@array/feed_values"
+            app:key="feedSET"
+            app:title="@string/reply_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="browserSET"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:title="@string/attachment_title" />
+
+        <SwitchPreferenceCompat
+            app:key="clockSET"
+            app:defaultValue="true"
+            app:summaryOff="@string/clock_summary_off"
+            app:summaryOn="@string/clock_summary_on"
+            app:title="@string/clock_title" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/theme_header">
+
+
+        <SwitchPreferenceCompat
+            app:key="darkmodeSET"
+            app:title="@string/darkmode_title" />
+
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
